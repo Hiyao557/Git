@@ -1,0 +1,7 @@
+﻿  Uic'ing QtAccountListDetailWidget.ui...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of qrc_CtpMonitorQT.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\qrc_CtpMonitorQT.cpp, GeneratedFiles\qrc_CtpMonitorQT.cpp.
+  CtpMonitorQT.cpp
+  moc_QtAccountListDetailWidget.cpp
+  QtAccountListDetailWidget.cpp
+  CtpMonitorQT.vcxproj -> E:\project\CtpMonitorQT\x64\Debug\CtpMonitorQT.exe
+  CtpMonitorQT.vcxproj -> E:\project\CtpMonitorQT\x64\Debug\CtpMonitorQT.pdb (Full PDB)

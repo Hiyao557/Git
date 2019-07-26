@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtAccountListDetailWidget</class>
+ <widget class="QWidget" name="QtAccountListDetailWidget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1228</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtAccountListDetailWidget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <column>
+        <property name="text">
+         <string>连接状态</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>账号ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>账号名称</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>静态权益</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>动态权益</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>保证金占用</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>入金</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>出金</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>平仓盈亏</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>持仓盈亏</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>刷新时间</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

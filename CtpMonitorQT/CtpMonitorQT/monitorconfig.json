@@ -1,0 +1,13 @@
+﻿{
+  "users": [
+    {
+      "address": "tcp://180.168.146.187:10101",
+      "userid": "147553",
+      "username": "gldh-jy1",
+      "password": "lijiaqi_557",
+      "brokerid": "9999",
+      "appid":"simnow_client_test",
+      "authorcode":"0000000000000000"
+    }
+  ]
+}

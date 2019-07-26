@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtAccountDetailWidget</class>
+ <widget class="QWidget" name="QtAccountDetailWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>664</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtAccountDetailWidget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="5" alignment="Qt::AlignLeft">
+    <widget class="QTableWidget" name="tableWidget_usr">
+     <property name="maximumSize">
+      <size>
+       <width>357</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <column>
+      <property name="text">
+       <string>用户ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>用户名</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QTabWidget" name="tabWidget_3">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_10">
+      <attribute name="title">
+       <string>所有委托单</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="tableWidget_2">
+         <column>
+          <property name="text">
+           <string>报单编号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>合约</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>买卖</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>开平</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>挂单状态</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>报单价格</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>报单手数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>未成交手数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>详细状态</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>交易所</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_11">
+      <attribute name="title">
+       <string>未成交单</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="tableWidget_7">
+         <column>
+          <property name="text">
+           <string>报单编号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>合约</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>买卖</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>开平</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>报单手数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>未成交手数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>报单价格</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>报单时间</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QTabWidget" name="tabWidget_2">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_8">
+      <attribute name="title">
+       <string>成交明细</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="tableWidget">
+         <column>
+          <property name="text">
+           <string>报单编号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>合约</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>买卖</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>开平</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>成交价格</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>成交手数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>成交时间</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>成交编号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>交易所</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_9">
+      <attribute name="title">
+       <string>成交合计</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="tableWidget_6">
+         <column>
+          <property name="text">
+           <string>合约</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>买卖</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>开平</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>成交均价</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>成交手数</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="2" column="3" colspan="2">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>持仓</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="0">
+        <widget class="QTableWidget" name="tableWidget_3">
+         <column>
+          <property name="text">
+           <string>合约</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>买卖</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>总持仓</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>持仓均价</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>杠杆率</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>货值</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>货值占比</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QAccount" name="widget" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>281</width>
+           <height>0</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" alignment="Qt::AlignLeft">
+        <widget class="QPushButton" name="pushButton">
+         <property name="maximumSize">
+          <size>
+           <width>509</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>导出</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>持仓明细</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QTableWidget" name="tableWidget_4">
+         <column>
+          <property name="text">
+           <string>成交编号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>合约</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>买卖</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>手数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>昨结价格</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>开仓时间</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>浮动盈亏</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>交易所</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>组合持仓</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="tableWidget_5">
+         <column>
+          <property name="text">
+           <string>成交编号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>合约</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>买卖</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>手数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>开仓日期</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>保证金</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>交易所</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QAccount</class>
+   <extends>QWidget</extends>
+   <header>QAccount.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/cover_learnroadqt.jpg</file>
+    </qresource>
+</RCC>
